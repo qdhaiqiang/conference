@@ -1,0 +1,136 @@
+*{
+	font-size:12px;
+}
+body {
+    font-family:verdana,helvetica,arial,sans-serif;
+    padding:0px;
+    font-size:12px;
+    margin:0;
+}
+h2 {
+    font-size:18px;
+    font-weight:bold;
+    margin:0;
+    margin-bottom:15px;
+}
+.demo-info{
+	padding:0 0 12px 0;
+}
+.demo-tip{
+	display:none;
+}
+.btn-lg-ok {
+	border:1px solid #1e7db9;
+	box-shadow: 0 1px 2px #8fcaee inset,0 -1px 0 #497897 inset,0 -2px 3px #8fcaee inset;
+	background: -webkit-linear-gradient(top,#42a4e0,#2e88c0);
+	background: -moz-linear-gradient(top,#42a4e0,#2e88c0);
+	background: linear-gradient(top,#42a4e0,#2e88c0);
+}
+.btn-lg-cancel {
+	border:1px solid #d2a000;
+	box-shadow: 0 1px 2px #fedd71 inset,0 -1px 0 #a38b39 inset,0 -2px 3px #fedd71 inset;
+	background: -webkit-linear-gradient(top,#fece34,#d8a605);
+	background: -moz-linear-gradient(top,#fece34,#d8a605);
+	background: linear-gradient(top,#fece34,#d8a605);
+} 
+.btn-lg-reset {
+	border:1px solid #b42323;
+	box-shadow: 0 1px 2px #e99494 inset,0 -1px 0 #954b4b inset,0 -2px 3px #e99494 inset;
+	background: -webkit-linear-gradient(top,#d53939,#b92929);
+	background: -moz-linear-gradient(top,#d53939,#b92929);
+	background: linear-gradient(top,#d53939,#b92929);
+}
+.tl {
+	width: 1024px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.checkstyle{
+	margin:0 auto;
+	width:1024px;
+	padding-bottom:50px;
+}
+.checkstyle h3 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #901D18;
+	padding-left: 13px;
+	color: #901D18;
+	background: #f0edda;
+	padding: 20px;
+	margin:0;
+}
+.checkstyle h2 {
+	font-size: 15px;
+	font-weight: bold;
+	color: #901D18;
+	padding-left: 13px;
+	color: #fff;
+	background: #A6AE72;
+	padding: 10px;
+	margin:0;
+}
+.svList2 {
+	background: #f0edda;
+	height: 40px;
+}
+table {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 1px;
+	border-color: #b7b7b7;
+}
+table td{
+	padding-left:20px;
+	color:#35535e;
+}
+.huiyiqiangl{
+	border:1px solid #ece9d6;
+	width:500px;
+	float:left;
+	padding:0px;
+	height:500px;
+	background:#fcfdfe;
+}
+
+.svList3 {
+	background: #f0edda;
+}
+.huiyiqiangl img{
+	float:left;
+	border:1px solid #f0edda;
+	width:128px;
+	height:170px;
+	margin:0 30px 0 10px;
+}
+
+.huiyiqiangl ul{
+	list-style-type: disc;
+}
+.huiyiqiangl ul li{
+	list-style:none;
+	line-height:21px;
+	padding-left:5px;
+	background:url(../../../images/flower2.gif) no-repeat 115 4;
+}
+.huiyiright{
+	border:1px solid #ece9d6;
+	float:left;
+	padding:0px;
+	height:500px;
+	width:520px;
+	background:#fcfdfe;
+}
+.huiyiright ul{
+	padding:0 0 0 8;
+	margin:0;
+}
+.huiyiright ul li{
+	list-style:none;
+	line-height:21px;
+	padding-left:25px;
+	color:#aca790;
+	padding-top:10px;
+	padding-bottom:5px;
+	background:url(../../../images/beneftxt.gif) no-repeat 0 6;
+}

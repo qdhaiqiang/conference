@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+/* -------------------------------- */
+/* Structure of site				*/ 
+/* -------------------------------- */
+
+
+#mainContent li{
+list-style:none;
+}
+body {
+	margin: 0  auto; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	color: #000000;
+	font-family: Arial,"新細明體",SimHei,"Microsoft JhengHei","Microsoft YaHei";
+	/*font-family: Arial, Verdana, simsun, SimHei,"Microsoft JhengHei","Microsoft YaHei";*/
+	-webkit-text-size-adjust:none; /* for Chrome font-size 12px bug only */
+	font-size: 15px;
+	line-height:150%;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	min-height:500px;}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	color:blue;
+	text-decoration: underline;
+}
+a:hover {
+	color: #06F;
+	text-decoration: none;
+}
+p{
+padding:0px;
+margin:10px 0;
+clear:both;
+text-align:justify;
+text-justify:inter-ideograph;
+text-indent:2em;
+}
+img{ border:none;}
+.ymenu{font-size:12px;position:relative;z-index:100; margin-top:-10px;}
+.ymenu ul{list-style:none;}
+.ymenu li {float:left; position:relative;}
+.ymenu ul ul {visibility:hidden;position:absolute;left:1px;top:96px;}
+.ll { margin-left:-40px;}
+.ymenu table {position:absolute; top:0; left:0;}
+.ymenu ul li:hover ul,
+.ymenu ul a:hover ul{visibility:visible; margin-left:-40px; margin-top:-5px}
+.ymenu .li1{display:block; height:85px; width:76px; line-height:75px; font-size:13px; padding:2px 10px;margin:3px;color:#cfa686;text-decoration:none; text-align:center;}
+.ymenu .li10{display:block; height:85px; width:76px; line-height:75px; font-size:13px; padding:2px 10px;margin:3px;color:#cfa686;text-decoration:none; text-align:center;}
+.ymenu a.li1:hover,.menu a.li10:hover{background:#f5f0e7;color:#846f62;}
+.ymenu ul ul{}
+.ymenu ul ul li {clear:both;text-align:left;font-size:12px;}
+.ymenu ul ul li a{display:block;width:101px; font-size:13px; line-height:34px;height:34px;margin:0;border:0; text-align:center;background:url(../images/menu_bg0.gif) repeat-y; color:#FFF; text-decoration:none;}
+.ymenu ul ul li a:hover{border:0; background:url(../images/menu_bg.gif) no-repeat; width:101px; height:34px; line-height:34px; text-align:center;color:#fff; text-decoration:none; font-weight:bold;}
+
